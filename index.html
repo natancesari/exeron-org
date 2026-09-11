@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Título otimizado para SEO Orgânico (Google Search Console) -->
+    <title>EXERON en Argentina - Suplemento para Energía y Potencia</title>
+    <meta name="description" content="Descubrí EXERON, el suplemento natural líder en Argentina para recuperar tu vitalidad, energía y confianza. Conocé sus beneficios y cómo pedirlo con 50% de descuento.">
+    
+    <style>
+        /* Variáveis de Cores baseadas na imagem de referência */
+        :root {
+            --primary-blue: #0A2540; /* Azul escuro da página oficial */
+            --accent-orange: #E64A19; /* Laranja/Vermelho vibrante dos botões */
+            --bg-light: #F4F7F9;
+            --text-dark: #333333;
+            --text-gray: #666666;
+        }
+
+        /* Reset e Configurações Básicas */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-light);
+            color: var(--text-dark);
+            line-height: 1.7;
+            font-size: 16px;
+        }
+
+        /* Estrutura Principal para SEO */
+        .page-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 0 20px rgba(0,0,0,0.05);
+        }
+
+        /* Cabeçalho */
+        header {
+            background-color: var(--primary-blue);
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            border-bottom: 4px solid var(--accent-orange);
+        }
+
+        .logo-text {
+            font-size: 28px;
+            font-weight: 900;
+            letter-spacing: 2px;
+        }
+
+        /* Conteúdo do Artigo */
+        main {
+            padding: 40px 30px;
+        }
+
+        h1 {
+            color: var(--primary-blue);
+            font-size: 32px;
+            font-weight: 800;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h2 {
+            color: var(--primary-blue);
+            font-size: 24px;
+            font-weight: 700;
+            margin: 40px 0 15px 0;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 20px;
+            color: var(--text-gray);
+        }
+
+        /* Imagens (Otimizadas para SEO) */
+        .image-container {
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .image-caption {
+            font-size: 13px;
+            color: #888;
+            margin-top: 8px;
+            font-style: italic;
+        }
+
+        /* Destaques e Benefícios (Listas para Snippets) */
+        .benefits-list {
+            background-color: var(--bg-light);
+            padding: 25px;
+            border-radius: 8px;
+            border-left: 5px solid var(--accent-orange);
+            margin-bottom: 30px;
+        }
+
+        .benefits-list ul {
+            list-style-type: none;
+        }
+
+        .benefits-list li {
+            margin-bottom: 12px;
+            padding-left: 25px;
+            position: relative;
+            font-weight: 600;
+            color: var(--primary-blue);
+        }
+
+        .benefits-list li::before {
+            content: "✓";
+            color: var(--accent-orange);
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        /* Bloco de Preço e Oferta */
+        .offer-box {
+            background-color: var(--primary-blue);
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 20px;
+            border-radius: 12px;
+            margin: 40px 0;
+        }
+
+        .offer-box h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .price-discount {
+            background-color: #ffffff;
+            color: var(--accent-orange);
+            display: inline-block;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .price-old {
+            text-decoration: line-through;
+            font-size: 16px;
+            color: #a0aec0;
+            display: block;
+        }
+
+        .price-new {
+            font-size: 38px;
+            font-weight: 900;
+            color: #ffffff;
+            line-height: 1;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        /* Botão Call to Action */
+        .cta-button {
+            display: inline-block;
+            width: 100%;
+            max-width: 350px;
+            background-color: var(--accent-orange);
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            padding: 18px 20px;
+            border-radius: 50px;
+            text-align: center;
+            text-transform: uppercase;
+            box-shadow: 0 6px 20px rgba(230, 74, 25, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #D84315;
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(230, 74, 25, 0.5);
+        }
+
+        .cod-notice {
+            font-size: 14px;
+            margin-top: 15px;
+            display: block;
+            color: #cbd5e1;
+        }
+
+        /* FAQ - Excelente para SEO Orgânico */
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        
+        .faq-item h4 {
+            color: var(--primary-blue);
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        /* Rodapé Legal */
+        footer {
+            background-color: #f8fafc;
+            border-top: 1px solid #e2e8f0;
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #94a3b8;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-orange);
+            text-decoration: underline;
+        }
+
+        /* Estilos dos Modais */
+        .modal-overlay {
+            display: none; 
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(10, 37, 64, 0.8); /* Fundo escuro azulado */
+            backdrop-filter: blur(4px);
+            align-items: center;
+            justify-content: center;
+            padding: 15px;
+            opacity: 0;
+            animation: fadeIn 0.3s forwards;
+        }
+
+        @keyframes fadeIn {
+            to { opacity: 1; }
+        }
+
+        .modal-content {
+            background-color: #ffffff;
+            padding: 30px 25px;
+            border-radius: 12px;
+            width: 100%;
+            max-width: 500px;
+            max-height: 85vh;
+            overflow-y: auto;
+            position: relative;
+            text-align: left;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        }
+
+        .modal-content h3 {
+            color: var(--primary-blue);
+            margin-bottom: 15px;
+            font-size: 22px;
+            border-bottom: 2px solid var(--bg-light);
+            padding-bottom: 10px;
+        }
+
+        .modal-content p {
+            font-size: 14px;
+            margin-bottom: 15px;
+            color: var(--text-gray);
+        }
+
+        .contact-email {
+            display: inline-block;
+            background-color: var(--bg-light);
+            padding: 12px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            color: var(--accent-orange);
+            text-decoration: none;
+            border: 1px solid #e2e8f0;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 28px;
+            font-weight: bold;
+            color: #cbd5e1;
+            cursor: pointer;
+            line-height: 1;
+        }
+
+        .close-btn:hover {
+            color: var(--accent-orange);
+        }
+
+        @media (max-width: 600px) {
+            main { padding: 30px 20px; }
+            h1 { font-size: 28px; }
+            .price-new { font-size: 32px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="page-wrapper">
+        <header>
+            <div class="logo-text">EXERON</div>
+        </header>
+
+        <main>
+            <!-- H1 otimizado para SEO -->
+            <h1>Recuperá tu potencia, energía y confianza con EXERON</h1>
+            
+            <p>Si estás buscando una solución natural y efectiva en Argentina para mejorar tu rendimiento diario y sentirte con más vitalidad, has llegado al lugar indicado. En este artículo, analizamos en profundidad qué es <strong>EXERON</strong> y por qué miles de hombres lo están eligiendo.</p>
+
+            <!-- Placeholder Produto Principal -->
+            <div class="image-container">
+                <!-- Coloque aqui a imagem do seu produto recortada -->
+                <img src="exeron imagem.png" alt="Caja de cápsulas EXERON original en Argentina">
+                <div class="image-caption">Fórmula avanzada para el hombre actual.</div>
+            </div>
+
+            <h2>¿Qué es EXERON y cómo funciona?</h2>
+            <p><strong>EXERON</strong> es un suplemento dietario de alta calidad, desarrollado con ingredientes cuidadosamente seleccionados para apoyar el bienestar masculino. Su objetivo principal es ayudar a restaurar la energía natural que se pierde con el estrés, el paso del tiempo y el ritmo de vida acelerado.</p>
+            <p>A diferencia de otras opciones en el mercado, su fórmula está pensada para ofrecer resultados progresivos y sostenibles, brindando soporte tanto físico como mental.</p>
+
+            <!-- Lista de Benefícios (Fácil leitura para o Google) -->
+            <div class="benefits-list">
+                <h3>Por qué los hombres eligen EXERON:</h3>
+                <br>
+                <ul>
+                    <li>Aumento de la energía y resistencia diaria.</li>
+                    <li>Fórmula natural de alta asimilación.</li>
+                    <li>Apoya la recuperación física y reduce la fatiga.</li>
+                    <li>Mejora la confianza y el bienestar general.</li>
+                    <li>Fácil de incorporar a tu rutina diaria.</li>
+                </ul>
+            </div>
+
+            <!-- Placeholder Estilo de vida -->
+            <div class="image-container">
+                <!-- Use a Imagem 1 (Casal) aqui -->
+                <img src="felizes e com energia.jpeg" alt="Pareja feliz y con energía en su hogar">
+            </div>
+
+            <h2>Una fórmula avalada por la experiencia</h2>
+            <p>La eficacia de EXERON radica en la pureza de sus componentes. Especialistas en bienestar masculino coinciden en que mantener un equilibrio interno es fundamental para el rendimiento en todas las áreas de la vida.</p>
+
+            <!-- Placeholder Médico/Especialista -->
+            <div class="image-container">
+                <!-- Use a Imagem 2 (Médico) aqui -->
+                <img src="especialista.jpeg" alt="Especialista recomendando suplementos naturales">
+            </div>
+
+            <!-- Seção FAQ para SEO (Perguntas Frequentes) -->
+            <h2>Preguntas Frecuentes sobre EXERON en Argentina</h2>
+            
+            <div class="faq-item">
+                <h4>¿Es seguro consumirlo?</h4>
+                <p>Sí, EXERON está formulado con ingredientes naturales de alta calidad, pensando en el bienestar masculino sin efectos secundarios indeseados reportados.</p>
+            </div>
+            
+            <div class="faq-item">
+                <h4>¿Cómo es el método de envío y pago?</h4>
+                <p>Para tu total tranquilidad y seguridad, EXERON se maneja bajo la modalidad <em>Pago Contra Entrega</em>. Esto significa que realizás tu pedido online, te lo enviamos a tu domicilio en Argentina, y <strong>solo pagás en efectivo cuando el producto está en tus manos</strong>.</p>
+            </div>
+
+            <!-- Caixa de Oferta com CTA -->
+            <div class="offer-box">
+                <div class="price-discount">¡OFERTA ESPECIAL 50% OFF!</div>
+                <h3>Asegurá tu EXERON Hoy Mismo</h3>
+                <span class="price-old">Precio regular: 71.980 ARS</span>
+                <span class="price-new">35.990 ARS</span>
+                
+                <!-- COLOQUE SEU LINK DE AFILIADO NO HREF ABAIXO -->
+                <a href="https://gl4j4.doctormyads.com/l/?sub1=orgânico" class="cta-button">COMPRAR AHORA</a>
+                
+                <span class="cod-notice">📦 Envío a todo el país. Pagás al recibir tu pedido.</span>
+            </div>
+
+        </main>
+
+        <!-- Rodapé e Modais -->
+        <footer>
+            <div class="footer-links">
+                <a onclick="openModal('modal-terms')">Términos y Condiciones</a>
+                <a onclick="openModal('modal-privacy')">Política de Privacidad</a>
+                <a onclick="openModal('modal-contact')">Contacto</a>
+            </div>
+            <p>EXERON Argentina &copy; 2026. Todos los derechos reservados.</p>
+            <p style="margin-top: 10px; font-style: italic;">Este producto es un suplemento dietario, no es un medicamento y no suple una alimentación equilibrada.</p>
+        </footer>
+    </div>
+
+    <!-- CAIXAS MODAIS -->
+    
+    <!-- Modal Termos -->
+    <div id="modal-terms" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-terms')">&times;</span>
+            <h3>Términos y Condiciones</h3>
+            <p>El uso de este sitio web y la solicitud de productos a través del mismo están sujetos a estos términos y condiciones. Esta página actúa como un portal informativo y puente hacia el distribuidor oficial en Argentina.</p>
+            <p>La modalidad de pago es "Pago Contra Entrega" (Cash on Delivery), comprometiéndose el usuario a abonar el importe total en efectivo al recibir el paquete en la dirección indicada.</p>
+        </div>
+    </div>
+
+    <!-- Modal Privacidade -->
+    <div id="modal-privacy" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-privacy')">&times;</span>
+            <h3>Política de Privacidad</h3>
+            <p>Respetamos profundamente tu privacidad. En esta página de pre-venta no recolectamos datos personales, financieros ni tarjetas de crédito.</p>
+            <p>Cualquier información de envío proporcionada en el formulario de la página oficial del fabricante será utilizada exclusivamente para la logística y entrega de tu pedido, bajo estrictas normas de confidencialidad.</p>
+        </div>
+    </div>
+
+    <!-- Modal Contato -->
+    <div id="modal-contact" class="modal-overlay">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeModal('modal-contact')">&times;</span>
+            <h3>Atención al Cliente</h3>
+            <p>Si tenés consultas sobre el estado de tu envío o necesitás asistencia técnica con tu pedido, te recomendamos comunicarte cuando el operador logístico te contacte para confirmar la entrega.</p>
+            <p>Para dudas generales sobre esta página informativa, podés escribirnos directamente a nuestro correo electrónico de soporte:</p>
+            
+            <a href="mailto:suportegeralnutra@gmail.com" class="contact-email">suportegeralnutra@gmail.com</a>
+        </div>
+    </div>
+
+    <!-- SCRIPT DOS MODAIS -->
+    <script>
+        function openModal(id) {
+            document.getElementById(id).style.display = 'flex';
+            document.body.style.overflow = 'hidden'; 
+        }
+        
+        function closeModal(id) {
+            document.getElementById(id).style.display = 'none';
+            document.body.style.overflow = 'auto'; 
+        }
+        
+        window.onclick = function(event) {
+            if (event.target.classList.contains('modal-overlay')) {
+                event.target.style.display = "none";
+                document.body.style.overflow = 'auto';
+            }
+        }
+    </script>
+</body>
+</html>
